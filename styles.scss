@@ -52,6 +52,7 @@ body {
   }
 
   .game {
+    mix-blend-mode: screen;
     height: 18rem;
     margin-top: -4rem;
   }
@@ -86,7 +87,7 @@ button {
   font-size: 3rem;
   padding: 0.5rem 1rem;
   text-decoration: none;
-  color: white;
+  color: black;
   box-shadow: inset (-$shadow-width) (-$shadow-width) 0px 0px $shadow-color;
 
   &:hover,
