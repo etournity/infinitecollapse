@@ -1,0 +1,16 @@
+html {
+  margin: 0;
+  background: linear-gradient(-213deg, #0f2027, #203a43, #223e4a);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("/bg_scaled.a64c7d69.png");
+  background-repeat: repeat;
+  background-size: 30rem;
+}
+
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */
