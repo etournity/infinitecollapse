@@ -2,3 +2,5 @@ node_modules
 dist/*
 !dist/game
 .cache
+*.gz
+*.br

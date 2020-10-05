@@ -5,9 +5,12 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel serve index.html",
-    "build": "parcel build index.html"
+    "build:parcel": "parcel build index.html",
+    "compress": "bread-compressor dist",
+    "build": "yarn run build:parcel && yarn run compress"
   },
   "dependencies": {
+    "bread-compressor-cli": "^1.1.0",
     "parcel-bundler": "1.12.4"
   },
   "devDependencies": {
